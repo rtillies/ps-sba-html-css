@@ -33,7 +33,7 @@
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  aria-current="page" href="lessons.html">Lessons</a>
+            <a class="nav-link active" aria-current="page" href="lessons.html">Lessons</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="variations.html">Variations</a>
@@ -56,7 +56,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="login.html">
-            Log In</a>
+              Log In</a>
           </li>
         </ul>
         <!-- <form class="d-flex" role="search">
@@ -71,71 +71,71 @@
     <h1>Lessons</h1>
   </div>
 
+  <div class="container-fluid">
+    <p class="m-2">Sign up for lessons from a professional spades champion!</p>
+    <form class="m-4" action="#">
+      <table id="lessons" class="table table-border table-hover">
+        <tr>
+          <td>
+            <label for="name">Hi my name is</label>
+          </td>
+          <td>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">My email address is</label>
+          </td>
+          <td><input type="email" name="email" id="email" placeholder="Enter your email" required /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="location">I live in</label>
+          </td>
+          <td><select name="location">
+              <option selected disabled hidden style='display: none' value=''></option>
+              <option value="raleigh">Raleigh, NC</option>
+              <option value="charlotte">Charlotte, NC</option>
+              <option value="roanoke">Roanoke, VA</option>
+              <option value="richmond">Richmond, VA</option>
+              <option value="none">None of the above</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>Do you have a partner?</td>
+          <td>
+            <input type="radio" name="partner" id="yes">
+            <label for="yes">Yes, I have a partner</label><br>
+            <input type="radio" name="partner" id="no">
+            <label for="no">No, I do not have a partner</label>
+          </td>
+        </tr>
+        <tr>
+          <td>I know how to play with these variations:
+            <p class="pt-2 text-muted">Unsure? Check the <a href="variations.html" target="_blank"
+                class="text-decoration-none">Variations</a> page</p>
+          </td>
+          <td> <input type="checkbox" name="jjdd" id="jjdd">
+            <label for="jjdd">Joker-Joker-Deuce-Deuce</label><br>
+            <input type="checkbox" name="jjda" id="jjda">
+            <label for="jjda">Joker-Joker-Deuce-Ace</label><br>
+            <input type="checkbox" name="jja" id="jja">
+            <label for="jja">Joker-Joker-Ace</label><br>
+            <input type="checkbox" name="ace" id="ace">
+            <label for="ace">Ace High</label><br>
 
-  <p class="m-2">Sign up for lessons from a professional spades champion!</p>
-
-  <form class="m-4" action="#">
-    <table id="lessons" class="table table-border table-hover col-md-8">
-      <tr>
-        <td>
-          <label for="name">Hi my name is</label>
-        </td>
-        <td>
-          <input type="text" name="name" id="name" placeholder="Enter your name" required />
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label for="email">My email address is</label>
-        </td>
-        <td><input type="email" name="email" id="email" placeholder="Enter your email" required /></td>
-      </tr>
-      <tr>
-        <td>
-          <label for="location">I live in</label>
-        </td>
-        <td><select name="location">
-            <option selected disabled hidden style='display: none' value=''></option>
-            <option value="raleigh">Raleigh, NC</option>
-            <option value="charlotte">Charlotte, NC</option>
-            <option value="roanoke">Roanoke, VA</option>
-            <option value="richmond">Richmond, VA</option>
-            <option value="none">None of the above</option>
-          </select></td>
-      </tr>
-      <tr>
-        <td>Do you have a partner?</td>
-        <td>
-          <input type="radio" name="partner" id="yes">
-          <label for="yes">Yes, I have a partner</label><br>
-          <input type="radio" name="partner" id="no">
-          <label for="no">No, I do not have a partner</label>
-        </td>
-      </tr>
-      <tr>
-        <td>I know how to play with these variations:
-          <p class="pt-2 text-muted">Unsure? Check the <a href="variations.html" target="_blank"  class="text-decoration-none">Variations</a> page</p>
-        </td>
-        <td> <input type="checkbox" name="jjdd" id="jjdd">
-          <label for="jjdd">Joker-Joker-Deuce-Deuce</label><br>
-          <input type="checkbox" name="jjda" id="jjda">
-          <label for="jjda">Joker-Joker-Deuce-Ace</label><br>
-          <input type="checkbox" name="jja" id="jja">
-          <label for="jja">Joker-Joker-Ace</label><br>
-          <input type="checkbox" name="ace" id="ace">
-          <label for="ace">Ace High</label><br>
-          
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input type="submit" value="Register">
-        </td>
-        <td></td>
-      </tr>
-    </table>
-  </form>
-
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Register">
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+  </div>
 
 </body>
 
