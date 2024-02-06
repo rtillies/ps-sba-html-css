@@ -25,16 +25,16 @@ The requirements listed below are absolute minimums. Ensure that your website me
 
 ## CSS Requirements
 * Make use of inline, internal, and external styling.
-  * External: `spades.css`
-  * Internal: `index.html`
-  * Inline: Location dropdown selection on `lessons.html`
+  - [x] External: `spades.css`
+  - [x] Internal: `index.html`
+  - [x] Inline: Location dropdown selection on `lessons.html`
 * Use five different CSS selectors.
-  * 4 selectors in external `spades.css`
-  * 2 selectors in internal style on `index.html`
+  - [x] 4 selectors in external `spades.css`
+  - [x] 2 selectors in internal style on `index.html`
 * Use colors that complement each other.
-  * Mainly used grayscale throughout website.
+  - [x] Mainly used grayscale throughout website.
 * Use Flexbox and/or the Bootstrap Grid.
-  * Bootstrap used throughout website
+  - [x] Bootstrap used throughout website
 * Use at least two CSS animations.
-  1. Animation when hover over cards on `index.html`
-  2. Coming soon
+  - [x] Animation when hover over cards on `index.html`
+  - [ ] Coming soon
