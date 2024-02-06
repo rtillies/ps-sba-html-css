@@ -13,8 +13,7 @@ body {
 
 /* Table size on lessons.html */
 #lessons {
-  display: flex;
-  flex: 50%;
+  width: 70%;
 }
 
 /* Center text on login.html */

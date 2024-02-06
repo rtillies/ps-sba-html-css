@@ -4,8 +4,12 @@ The requirements listed below are absolute minimums. Ensure that your website me
 
 ## HTML Requirements
 * Have at least three pages. 
-  * Keep the grid system consistent between pages as much as possible.
+  - [x] `index.html`
+  - [x] `lessons.html`
+  - [x] `variations.html`
+  - [x] `login.html`
 * Use at least ten different HTML tags.
+  - [x] Done.
 * Include at least one table.
   - [x] Table on `lessons.html`
 * Include at least two forms.
@@ -21,7 +25,6 @@ The requirements listed below are absolute minimums. Ensure that your website me
     - [x] Images on all pages except `lessons.html`
   * GIFs
     - [x] GIF on `login.html`
-  * (See resource links above for some free content of each of these types.)
 
 ## CSS Requirements
 * Make use of inline, internal, and external styling.
