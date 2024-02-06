@@ -9,6 +9,14 @@ body {
 .accordion img {
   width: 20%;
   margin: 1%;
+  transition: 0.5s ease;
+}
+
+.accordion img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 /* Table size on lessons.html */
