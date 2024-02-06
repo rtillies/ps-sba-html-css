@@ -19,7 +19,10 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Black Belt Spades</i></a>
+      <a class="navbar-brand" href="#">
+        <img src="images/black-belt.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Black Belt Spades</i>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,36 +30,48 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="lessons.html">Lessons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="variations.html">Variations</a>
+            <a class="nav-link active"  aria-current="page" href="variations.html">Variations</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Organizations
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">The World Series of Spades</a></li>
-              <li><a class="dropdown-item" href="#">The Game of Spades</a></li>
+              <li><a class="dropdown-item" href="https://www.theworldseriesofspades.com/" target="_blank">The World
+                  Series of Spades</a></li>
+              <li><a class="dropdown-item" href="https://www.thegameofspades.com/" target="_blank">The Game of
+                  Spades</a>
+              </li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">More to come!</a></li>
+              <li><a class="dropdown-item disabled" aria-disabled="true" href="#">More to come!</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Coming Soon</a>
+            <a class="nav-link" href="login.html">
+            Log In</a>
           </li>
         </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
       </div>
     </div>
   </nav>
 
-  <div class="accordion col-sm-8" id="accordionExample">
+  <div class="page-header p-4">
+    <h1>Variations</h1>
+  </div>
+
+  <div class="accordion col-md-8 col-sm-10" id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -66,10 +81,10 @@
       <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div>
-            <img class="rounded" src="images/cards/big_joker.png" alt="Big Joker">
-            <img class="rounded" src="images/cards/little_joker.png" alt="Little Joker">
-            <img class="rounded" src="images/cards/deuce_diamond.png" alt="Deuce Diamond">
-            <img class="rounded" src="images/cards/deuce_spade.png" alt="Deuce Spade">
+            <img class="rounded" src="cards/joker_big.png" alt="Big Joker">
+            <img class="rounded" src="cards/joker_little.png" alt="Little Joker">
+            <img class="rounded" src="cards/diamond_02_deuce.png" alt="Deuce Diamond">
+            <img class="rounded" src="cards/spade_02_deuce.png" alt="Deuce Spade">
           </div>
           The highest four cards in the deck are <strong>Big Joker</strong>, <strong>Little Joker</strong>, <strong>Deuce Diamond</strong>, <strong>Deuce Spade</strong>. These cards rank above the Ace Spade. The Deuce Heart and Deuce Club are removed from the deck.
         </div>
@@ -84,10 +99,10 @@
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div>
-            <img class="rounded" src="images/cards/big_joker.png" alt="Big Joker">
-            <img class="rounded" src="images/cards/little_joker.png" alt="Little Joker">
-            <img class="rounded" src="images/cards/deuce_spade.png" alt="Deuce Spade">
-            <img class="rounded" src="images/cards/ace_spade.png" alt="Ace Spade">
+            <img class="rounded" src="cards/joker_big.png" alt="Big Joker">
+            <img class="rounded" src="cards/joker_little.png" alt="Little Joker">
+            <img class="rounded" src="cards/spade_02_deuce.png" alt="Deuce Spade">
+            <img class="rounded" src="cards/spade_01_ace.png" alt="Ace Spade">
           </div>
           The highest four cards in the deck are <strong>Big Joker</strong>, <strong>Little Joker</strong>, <strong>Deuce Spade</strong>, <strong>Ace Spade</strong>. Two of the remaining deuces are removed from the deck (usually the Deuce Heart and Deuce Diamond).
         </div>
@@ -102,11 +117,13 @@
       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div>
-            <img class="rounded" src="images/cards/big_joker.png" alt="Big Joker">
-            <img class="rounded" src="images/cards/little_joker.png" alt="Little Joker">
-            <img class="rounded" src="images/cards/ace_spade.png" alt="Ace Spade">
+            <img class="rounded" src="cards/joker_big.png" alt="Big Joker">
+            <img class="rounded" src="cards/joker_little.png" alt="Little Joker">
+            <img class="rounded" src="cards/spade_01_ace.png" alt="Ace Spade">
+            <img class="rounded" src="cards/spade_13_king.png" alt="King Spade">
+
           </div>
-          The highest three cards in the deck are <strong>Big Joker</strong>, <strong>Little Joker</strong>, <strong>Ace Spade</strong>. Two deuces are removed from the deck (usually the Deuce Heart and Deuce Diamond).
+          The highest four cards in the deck are <strong>Big Joker</strong>, <strong>Little Joker</strong>, <strong>Ace Spade</strong>, <strong>King Spade</strong>. Two deuces are removed from the deck (usually the Deuce Heart and Deuce Diamond).
         </div>
       </div>
     </div>
@@ -119,9 +136,10 @@
       <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <div>
-            <img class="rounded" src="images/cards/ace_spade.png" alt="Ace Spade">
-            <img class="rounded" src="images/cards/king_spade.png" alt="King Spade">
-            <img class="rounded" src="images/cards/queen_spade.png" alt="Queen Spade">
+            <img class="rounded" src="cards/spade_01_ace.png" alt="Ace Spade">
+            <img class="rounded" src="cards/spade_13_king.png" alt="King Spade">
+            <img class="rounded" src="cards/spade_12_queen.png" alt="Queen Spade">
+            <img class="rounded" src="cards/spade_11_jack.png" alt="Jack Spade">
           </div>
           The highest card in the deck is the Ace Spade. There are no jokers, and the deuces are not <i>wild</i> in this variation. No cards are removed from the deck.
         </div>
