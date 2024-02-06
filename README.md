@@ -3,16 +3,24 @@
 The requirements listed below are absolute minimums. Ensure that your website meets these requirements before attempting to further expand your features.
 
 ## HTML Requirements
-* Have at least three pages.
+- [x] Have at least three pages.
   * Keep the grid system consistent between pages as much as possible.
-* Use at least ten different HTML tags.
-* Include at least one table.
-* Include at least two forms.
-* Include at least one dropdown menu.
-* Include at least one of each of the following forms of content:
-  * Text.
-  * Images.
-  * GIFs.
+- [x] Use at least ten different HTML tags.
+- [x] Include at least one table.
+  * Table on `lessons.html`
+- [x] Include at least two forms.
+  * Form on `lessons.html`
+  * Form on `login.html`
+- [x] Include at least one dropdown menu.
+  * Dropdown menu in navbar on all pages
+  * Dropdown menu on `lessons.html`
+- [x] Include at least one of each of the following forms of content:
+  * Text
+    * Text on all pages
+  * Images
+    * Images on all pages except `lessons.html`
+  * GIFs
+    * GIF on `login.html`
   * (See resource links above for some free content of each of these types.)
 
 ## CSS Requirements
