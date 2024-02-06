@@ -3,6 +3,7 @@
 The requirements listed below are absolute minimums. Ensure that your website meets these requirements before attempting to further expand your features.
 
 ## HTML Requirements
+
 * Have at least three pages. 
   - [x] `index.html`
   - [x] `lessons.html`
@@ -32,12 +33,14 @@ The requirements listed below are absolute minimums. Ensure that your website me
   - [x] Internal: `index.html`
   - [x] Inline: Location dropdown selection on `lessons.html`
 * Use five different CSS selectors.
-  - [x] 4 selectors in external `spades.css`
+  - [x] 5 selectors in external `spades.css`
   - [x] 2 selectors in internal style on `index.html`
 * Use colors that complement each other.
-  - [x] Mainly used grayscale throughout website.
+  - [x] Mainly used grayscale and shades of blue throughout website.
 * Use Flexbox and/or the Bootstrap Grid.
   - [x] Bootstrap used throughout website
 * Use at least two CSS animations.
   - [x] Color animation when hover over Bootstrap cards on `index.html`
   - [x] Size animation when hover over playing cards on `variations.html`
+
+Assignment instructions found [here](instructions.md).
