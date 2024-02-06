@@ -39,5 +39,5 @@ The requirements listed below are absolute minimums. Ensure that your website me
 * Use Flexbox and/or the Bootstrap Grid.
   - [x] Bootstrap used throughout website
 * Use at least two CSS animations.
-  - [x] Animation when hover over cards on `index.html`
-  - [ ] Coming soon
+  - [x] Color animation when hover over Bootstrap cards on `index.html`
+  - [x] Size animation when hover over playing cards on `variations.html`
